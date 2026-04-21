@@ -271,7 +271,7 @@ main{
 /* 右側のメニュー本体 */
 .mobile-nav-inner{
   position:absolute;
-  top:0;
+  top:calc(var(--header-height) + 5px);
   right:0;
   width:min(88vw, 280px);
   max-height:100vh;
@@ -324,7 +324,7 @@ main{
 
 /* メニュー一覧 */
 .mobile-nav-list{
-  margin-top:36px;
+  margin-top:10px;
   display:flex;
   flex-direction:column;
   gap:8px;
